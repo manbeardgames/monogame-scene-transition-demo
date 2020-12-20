@@ -63,8 +63,6 @@ namespace SceneTransitionDemo.Scenes
 
                     spriteBatch.Draw(_pixel, rect, Color.Gray);
                 }
-
-
             }
 
             base.Draw(spriteBatch);

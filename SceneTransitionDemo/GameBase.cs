@@ -20,7 +20,6 @@ namespace SceneTransitionDemo
         /// </summary>
         public Color ClearColor { get; protected set; }
 
-
         /// <summary>
         ///     Gets or Sets the resolution (widht x height) of our game.
         /// </summary>
@@ -55,8 +54,6 @@ namespace SceneTransitionDemo
         // ------------------------------------------------
         private KeyboardState _prevKeyboardState;   //  Previous frame keyboard state.
         private KeyboardState _curKeyboardState;    //  Current frame keyboard state.
-
-
 
         /// <summary>
         ///     Creates a new instance of our Game.
@@ -159,12 +156,8 @@ namespace SceneTransitionDemo
                     ChangeScene(new HorizontalStripScene(this, 32),
                                 new EvenOddTransition(this, 32, TimeSpan.FromSeconds(1), TransitionKind.Out),
                                 new EvenOddTransition(this, 32, TimeSpan.FromSeconds(1), TransitionKind.In));
-
                 }
-
-
             }
-
 
             //  Update the current scene.
             if (CurrentScene != null)
@@ -224,7 +217,6 @@ namespace SceneTransitionDemo
                                       sourceRectangle: CurrentScene.RenderTarget.Bounds,
                                       color: Color.White);
                 }
-
 
                 //  Draws the "Press Space To Switch Scenes" textbox to the screen.
                 DrawHelpText();
