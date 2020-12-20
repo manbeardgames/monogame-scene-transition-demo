@@ -1,10 +1,11 @@
 # MonoGame Scene Transition Demo
 This repository contains demo game built using MonoGame 3.8.  The purpose of this demo is to show an implementation of doing Scene transition effects for a game.  
 
-The transitions provided in this demo are based on those used in the game **Wark & Wimble** by [PorbleG](https://twitter.com/PorbleG).  PorbleG was kind enough to provide the source code used in their game and I have adapted here for a generic MonoGame project.
+The transitions provided in this demo are based on those used in the game [Wark & Wimble](http://www.warkandwimble.com/) by [PorbleG](https://twitter.com/PorbleG).  PorbleG was kind enough to provide the source code used in their game and I have adapted here for a generic MonoGame project.
 
 You can check out **Wark & Wimble** on IOS, Android, and PC at the links below
 
+* Website: http://www.warkandwimble.com/
 * Android: https://play.google.com/store/apps/details?id=com.bwendt.warkandwimble
 * IOS: https://apps.apple.com/app/id1387320698
 * PC (Steam): https://store.steampowered.com/app/1436190/Wark__Wimble/
