@@ -1,5 +1,7 @@
 # MonoGame Scene Transition Demo
-This repository contains demo game built using MonoGame 3.8.  The purpose of this demo is to show an implementation of doing Scene transition effects for a game.  
+This repository contains demo game built using MonoGame 3.8.  The purpose of this demo is to show an implementation of doing Scene transition effects for a game. 
+
+The full tutorial on creating this demo and an explanation of all code can be found at https://manbeardgames.com/docs/tutorials/scene-transitions/introduction
 
 The transitions provided in this demo are based on those used in the game [Wark & Wimble](http://www.warkandwimble.com/) by [PorbleG](https://twitter.com/PorbleG).  PorbleG was kind enough to provide the source code used in their game and I have adapted here for a generic MonoGame project.
 
